@@ -1,0 +1,107 @@
+.cheemdas {
+  object-fit: fill;
+  width: fit-content;
+  z-index: 1;
+}
+
+.cheemdaContainer {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  position: fixed;
+  right: 0%;
+  padding: 0%;
+  margin: 0%;
+}
+.gardenContent {
+  width: 60%;
+  min-height: 60vh;
+}
+.menu {
+  padding-top: 15vh !important;
+  padding-left: 2rem !important;
+}
+.tabItem {
+  padding-left: 3vw !important;
+  width: 100% !important;
+  color: white;
+  height: 60vh !important;
+}
+.tbName {
+  width: 5px;
+}
+.tabs {
+  color: white;
+  height: 6rem;
+  margin-block: 1rem;
+}
+.heading {
+  font-weight: 900 !important;
+}
+.scripture {
+  border-radius: 8px !important;
+  background: linear-gradient(to right, #ff9898, #ffd3d3);
+  padding-inline: 1rem !important;
+  width: fit-content;
+  padding-block: 0.3rem !important;
+}
+.spaced {
+  margin-top: 2rem !important;
+}
+.readMore {
+  margin-block: 1rem !important;
+  padding-block: 0.4rem !important;
+  padding-inline: 1rem !important;
+  background-color: rgb(255, 135, 135);
+  color: black;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.readMore:hover {
+  background: rgba(78, 78, 78, 0.59) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(4.3px) !important;
+  -webkit-backdrop-filter: blur(4.3px) !important;
+}
+
+.cardsContainer {
+  background-color: green;
+  width: 100%;
+}
+.maps {
+  margin-top: 2rem !important;
+  width: 90%;
+  object-fit: contain;
+}
+
+.locs {
+  object-fit: contain;
+  width: 2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cheemdas {
+    transform: scale(.5) !important;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .cheemdas {
+    transform: scale(.7);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cheemdas {
+    transform: scale(.9) !important;
+  }
+}
+@media screen and (min-width: 1025px)  {
+  .cheemdas {
+    transform: scale(1)!important;
+  }
+}

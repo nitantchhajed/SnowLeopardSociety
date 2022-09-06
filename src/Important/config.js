@@ -1,0 +1,1 @@
+export const metaSimbaAddress = "0x85f15E370B87e6Cf72A5A478b8C749d7B0a72962";

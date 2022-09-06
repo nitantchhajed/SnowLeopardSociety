@@ -1,0 +1,148 @@
+.galleryMain {
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 8vh !important;
+  margin-top:4vh;
+  /* margin-top: 18vh; */
+  /* min-height: 100vh; */
+  max-height:96vh;
+}
+
+
+TextField .MuiFilledInput-root {
+    background: "red"
+}
+
+.filters {
+  width:100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto !important;
+  color: white;
+}
+
+.filters::-webkit-scrollbar-thumb {
+  display: none !important;
+  background-color: red;
+}
+
+.searchBox {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+}
+
+.cap {
+  width: 80% !important;
+}
+
+.searchicon {
+  /* color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 0.5rem;
+}
+
+.searchBar {
+  outline: none;
+  border: none;
+  width: 80% !important;
+  padding-block: 1rem !important;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+  /* background-color: black; */
+}
+
+.filterOptions {
+  width: 100%;
+  padding-block: 0.2rem;
+  /* border-bottom: 1px solid #e5e5e5; */
+}
+
+input[type="checkbox"] {
+  margin-block: 0.6rem;
+  cursor: pointer;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: small;
+  margin-left: 0.6rem;
+}
+
+.minSearch {
+  width: 90%;
+  padding: 1rem;
+}
+.minSearch:focus {
+  outline: none;
+}
+
+.filterIcon {
+  object-fit: contain;
+  width: 2rem;
+  /* background-color: white; */
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.accordians {
+  border-inline: none;
+  color: white;
+  /* background-color: black !important; */
+}
+
+.tGroup {
+  padding-inline: 1px !important;
+  padding-block: 0.2rem !important;
+  border-radius: 10px !important;
+  height: 2.8rem !important;
+  background-color: #e5e5e5;
+}
+
+.activeTBtn {
+  background-color: white !important;
+  border-radius: 10px !important;
+  padding-inline: 2.5rem !important;
+  margin-inline: 0.1rem !important;
+  font-size: larger !important;
+  font-weight: 600 !important;
+  color: black !important;
+}
+.tBtn {
+  border: none !important;
+  color: black !important;
+  margin-inline: 0.1rem !important;
+  font-size: larger !important;
+  font-weight: 600 !important;
+  padding-inline: 2.5rem !important;
+}
+.tBtn :hover {
+  background-color: #e5e5e5 !important;
+}
+
+.btns {
+  background-color: white;
+  padding-inline: 1.2rem;
+  padding-block: 0.6rem;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-size: medium;
+}
+
+.scales {
+  transition: transform 300ms ease-in-out;
+  cursor: pointer;
+}
+.scales:hover {
+  transform: scale(1.05);
+}

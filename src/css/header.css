@@ -1,0 +1,149 @@
+.header {
+  padding-inline: 2rem !important;
+  /* padding-block: 0.2rem !important; */
+  /* background: transparent !important */
+}
+.menus {
+}
+
+.navButton3{
+  background-color: rgb(224, 224, 224) !important;
+  /* width:"90%"; */
+  /* border-radius: 3px !important; */
+  font-weight: bold !important;
+  font-size: x-small !important;
+}
+.navButton3:hover{
+  background-color: rgb(117, 113, 113) !important;
+  width:"100%";
+  /* border-radius: 3px !important; */
+  font-weight: bold !important;
+  font-size: x-small !important;
+}
+.navButton {
+  /* background-color: #94dbe0 !important; */
+  border-radius: 3px !important;
+  padding-block: 0.3rem !important;
+  font-weight: bold !important;
+  font-size: x-small !important;
+  padding-inline: 1rem !important;
+  margin-inline: 0.3rem !important;
+}
+
+.navButton2 {
+  /* background-color: #94dbe0 !important; */
+  background-color: rgb(224, 224, 224) !important;
+
+  border-radius: 3px !important;
+  font-weight: bold !important;
+  font-size: x-small !important;
+  margin-inline: 0.3rem !important;
+  height: 1.9rem !important;
+  align-self: center;
+}
+
+.navButtonWhite {
+  color: white !important;
+}
+
+.navButtonWhite:hover {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.59) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(4.3px) !important;
+  -webkit-backdrop-filter: blur(4.3px) !important;
+}
+.navButtonBlack {
+  /* background-color: black !important; */
+}
+.navButtonBlack:hover {
+  background: rgba(0, 0, 0, 0.09) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(4.3px) !important;
+  -webkit-backdrop-filter: blur(4.3px) !important;
+}
+
+.headerChild {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.grayGlass {
+  background: rgba(197, 181, 180, 0.56);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.9px);
+  -webkit-backdrop-filter: blur(7.9px);
+}
+
+.mobileNav {
+  /* padding-inline: 5px !important; */
+  width: 8=54vw;
+  /* padding: 0% !important; */
+  margin: auto !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .menus {
+    /* margin-left: auto !important; */
+    /* padding-right: 2rem !important; */
+    margin-left:-18em !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .menus {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    width: fit-content !important;
+  }
+}
+
+.MuiList-root {
+  /* background: rgba(203, 203, 203, 0.15) !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(6.8px) !important; */
+  /* -webkit-backdrop-filter: blur(6.8px) !important; */
+
+  width: 100vw;
+  margin: 0 !important;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .MuiList-root {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+/* slightly transparent fallback for Firefox (not supporting backdrop-filter) */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .MuiList-root {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.opt {
+  border-radius: 3px !important;
+  padding-block: 0.3rem !important;
+  font-weight: bold !important;
+  font-size: medium;
+  font-size-adjust: 0.3;
+  padding-inline: 1rem !important;
+  margin-inline: 0.3rem !important;
+  padding-block: 4px !important;
+}
+
+option:not(:checked) {
+  padding: 1rem;
+}
+#dd {
+  border: none;
+  outline: none;
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
+}
+
+#dd:focus {
+  border: none;
+  outline: none;
+}

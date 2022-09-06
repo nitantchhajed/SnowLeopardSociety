@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #f1f1f1; */
+    background:transparent;
+    border:1px solid white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    /* background: #888; */
+    background: #94dbe0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .RoadMapContent{
+    direction: rtl;
+    overflow:auto;
+    text-align: justify;
+    text-align:left;
+    justify-content: space-around;
+  }
+  .RoadMapText{
+    direction:ltr;
+  }
+  

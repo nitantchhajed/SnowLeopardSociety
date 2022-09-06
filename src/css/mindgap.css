@@ -1,0 +1,57 @@
+/* #ebe7e0 */
+
+.mindCard {
+  cursor: pointer;
+
+}
+.mindCard:hover {
+}
+
+.opaced {
+  opacity: 65%;
+}
+.opacedhigh {
+  animation: increasingOpacity 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes increasingOpacity {
+  to {
+    opacity: 100%;
+  }
+  from {
+    opacity: 65%;
+  }
+}
+
+.countButton {
+  background-color: transparent;
+  border: none;
+  padding-block: 0.4rem;
+  width: max-content;
+  margin-block: 0.5rem;
+  font-size: medium;
+  color: gray;
+  font-weight: 600;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.countButton:hover::after {
+  content: " ➡";
+  position: absolute;
+  left: 110%;
+  font-size: 1.52rem;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  animation: iconPopup 1s forwards;
+}
+
+@keyframes iconPopup {
+  to {
+    width: 100%;
+  }
+  from {
+    opacity: 0%;
+  }
+}

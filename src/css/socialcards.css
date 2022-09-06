@@ -1,0 +1,33 @@
+.boxs {
+  /* border: 1px solid rgb(229, 229, 229) !important; */
+  border-bottom:1px solid rgb(229, 229, 229) !important;
+  padding-block: 0.4rem !important;
+  padding-inline: 0.6rem !important;
+  margin-top: .6rem !important;
+  margin-left: .6rem !important;
+  display: flex !important;
+  align-items: start !important;
+  height: fit-content;
+  cursor: pointer;
+  height: 5rem;
+  border-radius: 10px;
+  /* color: black !important; */
+  /* background-color: #e5e5e5; */
+  
+}
+
+.boxs:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.box2 {
+  height: 100%;
+  align-items: start !important;
+  justify-content: end !important;
+}
+.imgs {
+  object-fit: contain !important;
+  width: fit-content !important;
+  height: 100% !important;
+}
